@@ -14,7 +14,7 @@ client = replicate.Client(api_token=api_token)
 import replicate
 #input dulu bang
 input = {
-    "image": open(r"D:\KENANGAN\Foto SMA\tes.jpg", "rb"),
+    "image": open(r"D:\KENANGAN\Foto SMA\tes.jpg", "rb"), #masukkan sesuai path file kalian
     "style": "Video game",
     "prompt": "pixelated glitchart of close-up of (subject),ps2 ps1 playstation psx gamecube game radioactive dreams screencapture,bryce3d",
     "instant_id_strength": 0.8
